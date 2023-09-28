@@ -243,3 +243,61 @@ button {
 .HistoryItems-Title {
 	text-align: start;
 }
+
+#popular-section {
+	margin-top: 140px;
+}
+
+.Popular {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.Popular-Text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
+}
+
+.PopularItems {
+	margin-top: 56px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.PopularItems-Card {
+	min-height: 579px;
+	min-width: 366px;
+	padding: 48px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #121315;
+	gap: 36px;
+}
+
+.PopularItems-CardTitle {
+	font: 400 24px 'Righteous';
+	text-transform: uppercase;
+}
+
+.PopularItems-Icon {
+	min-height: 24px;
+	min-width: 24px;
+}
+
+.PopularItems-Btn {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 12px;
+}
+
+.Popular-Link {
+	align-self: center;
+	margin-top: 56px;
+	max-width: 252px;
+	max-height: 62px;
+}
